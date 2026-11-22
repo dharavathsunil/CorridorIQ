@@ -6,7 +6,7 @@ of day, and shows it next to travel time in a journey planner, with an operator 
 
 ## Quick start (prebuilt data, about 2 minutes)
 1. `pip install -r requirements.txt`
-2. Download `app.duckdb` from the Releases page: [release link] and put it in `app/data/`.
+2. Download `app.duckdb` from the Releases page: https://github.com/dharavathsunil/CorridorIQ/releases/tag/v1.0.0 and put it in `app/data/`.
    It contains only the public GTFS timetable and aggregated crowding levels, no individual tickets.
 3. `cd app` then `uvicorn main:app`, and open http://127.0.0.1:8000
 4. Click 'Try an example' (Kapashera Border to Saket Metro Station, 08:30 weekday), then change the time to 11:30.
