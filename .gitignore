@@ -1,0 +1,14 @@
+# raw and derived data (do not publish raw tickets or the GTFS download)
+*.csv
+*.parquet
+*.duckdb
+*.7z
+*.zip
+gtfs/
+data/
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
